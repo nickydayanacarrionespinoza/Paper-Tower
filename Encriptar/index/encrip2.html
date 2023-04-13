@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar-Desencriptar</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   <!--icons-->
+    <link rel="stylesheet" href="../estilos/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet"> <!--letra general-->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   <!--icon 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">  <!--titulo de menù-->
+</head>
+<body>
+<div class="princi">
+     <!-- ID Particulas.js -->
+     <div id="particles-js"></div>
+<!-- menú -->
+<header class="header1">
+    <div class="titu">
+        <a id="title-1" href="../libros/index.html">Paper Tower</a>
+    </div>
+
+    <nav>
+    <ul class="menu-horizontal">
+    <li><a href="../libros/index.html">Inicio</a>
+    </li>
+    <li>
+        <a href="../libros/index.html" href="#" class="generos">Géneros</a>
+    </li>
+<li><a href="#footer">Nosotros</a>
+</li>
+</ul>
+    </nav>
+    <div class="busqueda">
+      <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Buscar">
+    </div>
+</header>   
+
+<!--contenido-->
+
+    <div class="principal">
+        <strong><em><h1>Encriptar - Desencriptar</h1></em></strong>
+        <h2>Aquí puedes encriptar y desencriptar cualquier mensaje con la opción de poder personalizar la rotacón de cada una de las letras.</h2>
+
+        <h3>Mensaje secreto:</h3>
+        <p><input type="text" id="mensaje"></p>
+        <h3>Desplazamiento deseado:</h3>
+        <p><input type="number" id="desplazamiento" size="4"></p>
+        <p><button type="button" id="cifrar">Cifrar</button>
+        <button type="button" id="descifrar">Descifrar</button></p>
+        <h3>Mensaje cifrado/descifrado:</h3>
+        <p><input type="text" id="mensaje2"></p>
+    </div>  
+
+
+
+    <!--footer-->
+    
+    <footer id="footer">
+        <div class="footer">
+                <div class="entrada">
+                    <p>ÙNETE A LA AVENTURA</p>
+                </div>
+        </div>
+                
+     <div class="container__footer">
+        <div class="boxer__footer">
+
+            <div class="terms">
+                <p>Los libros largos, cuando se leen, son normalmente sobrevalorados, porque el lector quiere convencer a los demas y a si misma de que no ha perdido el timpo. </p>
+            </div>
+        </div>
+        
+
+        <div class="box__footer">
+            <h2>Organizacion</h2>
+            <p>Mirian SantaMaria</p> 
+            <p>Leidy SantaMaria</p>
+            <p>Dayana Carriòn Espinoza</p>   
+            <p>Angellit Albornoz Suarez</p>         
+        </div>
+
+        <div class="redes">
+            <div class="sociales">
+                <ul>
+                    <li><a href="https://es-la.facebook.com/LibrosInfinite/" target="_blank" class="media"><i class='bx bxl-facebook' ></i></a></li>
+                    <li><a href="https://twitter.com/librosylit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="media"><i class='bx bxl-twitter'></i> </a></li>
+                    <li><a href="https://www.educaciontrespuntocero.com/recursos/bookstagram-instagram/" target="_blank" class="media"><i class='bx bxl-instagram'></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <div class="box__copyright">
+             <hr>
+            
+            <p>Todos los derechos reservados © 2023 <b>Paper Tower</b></p>
+        </div>
+
+    </div>    
+</footer>
+
+    <!-- Js DE PÁGINA -->
+    <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="../java/encrrip2.js"></script>
+<script src="../java/part.js"></script>
+</body>
+</html>

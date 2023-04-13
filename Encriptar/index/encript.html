@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Codificar - Decodificar</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔐</text></svg>">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../estilos/style1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">  <!--letra general-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">  <!--titulo de menù-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   <!--icon 2-->
+  </head>
+  <body>
+    <div id="particles-js"></div>
+        <!-- menú -->
+        <header class="header1">
+            <div class="titu">
+                <a id="title-1" href="../Html/index.html">Paper Tower</a>
+            </div>
+
+            <nav>
+            <ul class="menu-horizontal">
+            <li><a href="../Html/index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="#" class="generos">Géneros</a>
+            </li>
+        <li><a href="#footer">Nosotros</a>
+        </li>
+        </ul>
+            </nav>
+            <div class="busqueda">
+              <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Buscar">
+            </div>
+        </header>
+
+        
+
+
+    <div id="cuerpo">
+      <center id="uno">
+        <h1>Codificador - Decodificador</h1>
+        <h3>Codifica y decodifica mensajes secretos para tus autores favoritos.</h3>
+    </center>
+    <main>
+      <section class="container">
+        <div id="message">
+          <label for="message">Mensaje secreto:</label>
+          <textarea id="msg" name="textarea" maxlength="280" placeholder="Escribe tu mensaje secreto aquí"></textarea>
+          <span id="counter">0/380</span>
+          <label for="offset">Clave secreta:</label>
+          <input id="offset" type="number" min="-100" max="100" placeholder="Ingresa tu clave secreta aquí" name="offset" step="1">
+          <div class="btnGroup">
+            <button id="cipher" name="cipher" type="button">
+              <img src="../images/44622.png" alt=""> <h3>Cifrar</h3>
+            </button>
+            <button id="decipher" name="decipher" type="button">
+              <img src="../images/39734.png" alt=""> <h3>Descifrar</h3>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="modalContainer containerClose">
+        <div id="messageResult" class="modal modalClose">
+          <p id="close"><i class="fas fa-times"></i></p>
+          <label for="messageResult" id="lblMsgResult">Su mensaje es</label>
+          <textarea id="msgResult" name="textarea" readonly></textarea>
+          <button id="copy" name="copy" type="button">
+            <i class="fas fa-copy"></i> Copiar
+          </button>
+        </div>
+      </section>
+    </main>
+    </div>
+
+
+
+    <!--footer-->
+    
+    <footer id="footer">
+      <div class="footer">
+              <div class="entrada">
+                  <p>ÙNETE A LA AVENTURA</p>
+              </div>
+      </div>
+              
+   <div class="container__footer">
+      <div class="boxer__footer">
+
+          <div class="terms">
+              <p>Los libros largos, cuando se leen, son normalmente sobrevalorados, porque el lector quiere convencer a los demas y a si misma de que no ha perdido el timpo. </p>
+          </div>
+      </div>
+      
+
+      <div class="box__footer">
+          <h2>Organizacion</h2>
+          <p>Mirian SantaMaria</p> 
+          <p>Leidy SantaMaria</p>
+          <p>Dayana Carriòn Espinoza</p>   
+          <p>Angellit Albornoz Suarez</p>         
+      </div>
+
+      <div class="redes">
+          <div class="sociales">
+              <ul>
+                  <li><a href="https://es-la.facebook.com/LibrosInfinite/" target="_blank" class="media"><i class='bx bxl-facebook' ></i></a></li>
+                  <li><a href="https://twitter.com/librosylit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="media"><i class='bx bxl-twitter'></i> </a></li>
+                  <li><a href="https://www.educaciontrespuntocero.com/recursos/bookstagram-instagram/" target="_blank" class="media"><i class='bx bxl-instagram'></i></a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  
+      <div class="box__copyright">
+<hr>
+          
+          <p>Todos los derechos reservados © 2023 <b>Paper Tower</b></p>
+      </div>
+
+  </div>
+
+
+  
+</footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>   <!--js de particulas-->
+    <script src="../java/encript.js" type="module"></script>
+    <script src="../java/nasa.js"></script>
+    <script src="../java/scroll.js"></script>  
+    <script src="https://unpkg.com/scrollreveal"></script>
+        <!-- JS FontAwesome -->
+        <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
+        
+</body>
+</html>

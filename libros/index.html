@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <title>Paper tower</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">  <!--letra general-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">  <!--titulo de menù-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   <!--icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   <!--icon 2-->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">  <!--titulo de menù-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body> 
+    
+
+        <!-- Encabezado -->
+        <!-- menú -->
+        <header class="header1">
+            <div class="titu" id="logo">
+                <a id="title-uno" href="../index.html">Paper Tower</a>
+            </div>
+
+            <nav>
+            <ul class="menu-horizontal">
+            <li><a href="../libros/index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="#generos" class="generos">Géneros</a>
+                <ul class="menu-vertical">
+                    <li><a  href="#generos">Romance</a></li>
+                    <li><a  href="#dos">Ciencia Ficción</a></li>
+                    <li><a  href="#tres">Aventura</a></li>
+
+                </ul>
+            </li>
+        <li><a href="#footer">Nosotros</a>
+        </li>
+        </ul>
+            </nav>
+            <div class="busqueda">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="buscador" placeholder="Buscar">
+            </div>
+        </header>
+
+<section id="contenedor-main">
+            <!-- INFORMACION -->
+            <div class="informacion" id="generos">
+                <div class="primero">
+                    <div class="nombre">Romance</div>
+                    <div class="fila">
+                        <!-- columna izquierda -->
+            
+                        <div class="col">
+                            <h2 id="nombre">Atracción Mortal</h2>
+                        </div>
+                    
+                    <div class="central">
+                        <p id="descripcion">
+                            Max Wilson ingresó a la universidad Varsity y su llegada despertó 
+                            inmediatamente la intriga de las jóvenes estudiantes. La belleza 
+                            masculina que posee provocó que las chicas a su alrededor se derritieran
+                            con tan sólo verlo. El problema era que tenía una actitud fría y cortante 
+                            hacia los demás. 
+                        </p>
+                        <br>
+                        <br>
+                        <br>
+                       <span id="precio">$ 20.60</span> 
+                                <br>
+                                <br>
+                        <button>
+                            <strong><a href="https://www.wattpad.com/" target="_blank" >Comprar ahora</a></strong>
+                           <i class="fa-solid fa-circle-chevron-right" ></i>
+                        </button>
+                    </div>
+                      
+                
+            
+    
+                  <!-- Columna derecha -->
+                        <div class="col ingredientes">
+                       <ul id="ingredientes"> 
+                        </div>
+    
+                         <!-- Columna Central -->
+                    <div class="col">
+                        <div class="circulo-principal" id="circulo">
+                            <img src="./images/atraccion.webp" alt="" id="fotoPrincipal">
+                        </div>
+                    </div> 
+                </div>
+
+    
+            <div class="rectangulo">
+                <div class="opcion"  onclick="cargar(1)">
+                    <div class="circulo color1">
+                        <img src="./images/atraccion.webp" alt="">
+                        <div class="puntuacion">
+                            4.9 <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <h3>Atracción Mortal</h3> 
+                    
+                        <a href="../Encriptar/index/encript.html" target="_blank">Agregar a la orden +</a>
+                </div>
+                <div class="opcion" onclick="cargar(2)">
+                    <div class="circulo color2">
+                        <img src="./images/constelaciones.png" alt="">
+                        <div class="puntuacion">
+                            4.6 <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <h3>Si Las Personas Fueran Constelaciones</h3>
+                    <a href="https://www.alibrate.com/libro/si-las-personas-fueran-constelaciones/60838d962b5c1b74bf114cb8" target="_blank">Agregar a la orden +</a>
+                </div>
+                <div class="opcion" onclick="cargar(3)">
+                    <div class="circulo color3">
+                        <img src="images/voz.png" alt="">
+                        <div class="puntuacion">
+                            4.7 <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <h3>Sigue Mi Voz</h3>
+                    <a href="https://www.crisol.com.pe/libro-sigue-mi-voz-9786124442582" target="_blank">Agregar a la orden +</a>
+                </div>
+               
+            </div>
+        </div>
+        </div>
+
+    <!-- INFORMACION -->
+    <div class="contenedor-principal" id="dos">    
+        <div class="informacion02">
+            <h1>Ciencia Ficción</h1>
+            <div class="fila02">
+    
+                <!-- columna izquierda -->
+                <div class="col-02">
+                    <h2 id="nombru">Viaje al Centro de la Tierra</h2>
+                </div>
+    
+                <!-- Columna derecha -->
+                <div class="sip"> 
+                    <p id="descripcionu">Un jeroglífico medieval casi indescifrable puede permanecer luengos
+                        siglos durmiendo entre las hojas de un libro viejo. Pero, cuando por azar caiga en
+                        manos del audaz profesor Otto Lidenbrock de Hamburgo, desencadenará el viaje más 
+                        espectacular de todo el siglo XIX. El profesor, su sobrino Axel y el impasible Hans 
+                        verán maravillas en el interior del globo, iluminados por una inmóvil luz incomprensible.
+                    </p>
+    
+                        <span id="precio">$ 13.00</span>
+                  <button>
+                    <a href="https://www.wattpad.com/" target="_blank">
+                   Comprar Ahora</a>
+                   <i class="fa-solid fa-circle-chevron-right" ></i>
+                  </button>
+                </div>
+    
+                <!-- Columna Central -->
+                <div class="in-02">
+                    <div class="circulo-prin" id="circulu">
+                        <img src="./images/tierra.webp" alt="" id="fotoPrincipalu">
+                    </div>
+                </div>
+            </div>
+        <br><br><br>
+        <div class="recta">
+            <div class="opcion"  onclick="cargado(1)">
+                <div class="circulo color6">
+                    <img src="./images/tierra.webp" alt="">
+                    <div class="puntuacion">
+                        4.9 <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <h3>Viaje al Centro de la Tierra.</h3>
+                <a href="https://www.casadellibro.com/libro-viaje-al-centro-de-la-tierra/9788466705707/771893" target="_blank">Agregar a la Orden +</a>
+            </div>
+    
+    
+            <div class="opcion"  onclick="cargado(2)">
+                <div class="circulo color7">
+                    <img src="./images/maquina.jpg" alt="">
+                    <div class="puntuacion">
+                        4.9 <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <h3>La Maquina del Tiempo.</h3>
+                <a href="../Encriptar/index/encrip2.html" target="_blank">Agregar a la Orden +</a>
+            </div>
+    
+    
+            <div class="opcion"  onclick="cargado(3)">
+                <div class="circulo color8">
+                    <img src="./images/infinito.jpg" alt="">
+                    <div class="puntuacion">
+                        4.9 <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <h3>Lo Infinito y Lo Divino.</h3>
+                <a href="https://www.planetadelibros.com/libro-lo-infinito-y-lo-divino/341234" target="_blank">Agregar a la Orden +</a>
+            </div>
+        </div>
+    </div>    
+    
+    
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br>
+    
+    
+       <!-- INFORMACION -->
+    <div class="contenedor03" id="tres">
+        <div class="informacion03">
+            <h1>Aventura</h1>
+           <div class="fil-03">
+               <!-- columna izquierda -->
+               <div class="lado">
+                   <h2 id="nombra">Maya Erikson y El Misterio del Laberinto</h2>
+                </div>
+       
+               <!-- Columna derecha -->
+               <div class="con">
+                   <p id="descripciona">En aquella selva, repleta de animales exóticos, Maya esperaba pasar 
+                       unos días divertidos mientras su padre trabajaba.Sin embargo, no tardó 
+                       en sospechar que algo no iba bien.  El prestigioso biólogo al que todos admiraban 
+                       escondía un oscuro secreto, pero...¿quién iba a dudar de él?Por suerte, conoce a Oliver, 
+                       su cómplice en esta aventura contrarreloj en la que descubrirán que aquella selva esconde 
+                       misterios que nunca habrían imaginado.
+                    </p>
+                         <span id="precio">$ 10.60</span>
+                         <button>
+                            <a href="https://www.wattpad.com/" target="_blank">
+                           Comprar Ahora</a>
+                           <i class="fa-solid fa-circle-chevron-right" ></i>
+                       </button>
+               </div>
+       
+               <!-- Columna Central -->
+               <div class="barra">
+                   <div class="cir-unico" id="circula">
+                       <img src="./images/maya.jpg" alt="" id="fotoPrincipala">
+                   </div>
+               </div>
+           </div>
+        </div>
+
+        <br><br>
+       
+           <div class="barrita">
+             <div class="opcion" onclick="cargando(1)">
+                <div class="circo color01">
+                   <img src="./images/maya.jpg" alt="">
+                   <div class="puntuacion">
+                       4.9 <i class="fa-solid fa-star"></i>
+                   </div>
+                </div>
+                 <h3>Maya Erikson y El Misterio del Laberinto</h3>
+                 <a href="https://www.amazon.es/Maya-Erikson-misterio-del-laberinto/dp/B09KNCZT2C" target="_blank">Agregar a la Orden +</a>
+             </div>
+             <div class="opcion" onclick="cargando(2)">
+                <div class="circo color02">
+                   <img src="./images/anna.jpg" alt="">
+                   <div class="puntuacion">
+                       4.9 <i class="fa-solid fa-star"></i>
+                   </div>
+                </div>
+                  <h3>Anna Kadabra</h3>
+                  <a href="https://www.planetadelibros.com.pe/libro-anna-kadabra-1-el-club-de-la-luna-llena/310961" target="_blank">Agregar a la Orden +</a>
+             </div>
+             <div class="opcion" onclick="cargando(3)">
+                 <div class="circo color03">
+                    <img src="./images/matilda.jpg" alt="">
+                     <div class="puntuacion">
+                       4.9 <i class="fa-solid fa-star"></i>
+                     </div>
+                 </div>
+                  <h3>Matilda</h3>
+                  <a href="../Encriptar/index/encript4.html" target="_blank">Agregar a la Orden +</a>
+             </div>
+        </div>   
+       </div>
+        
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+        <!--footer-->
+        
+        <footer id="footer">
+            <div class="footer">
+                    <div class="entrada">
+                        <p>ÚNETE A LA AVENTURA</p>
+                    </div>
+            </div>
+                    
+         <div class="container__footer">
+            <div class="boxer__footer">
+    
+                <div class="terms">
+                    <p>Los libros largos, cuando se leen, son normalmente sobrevalorados, porque el lector quiere convencer a los demás y a si misma de que no ha perdido el tiempo. </p>
+                </div>
+            </div>
+            
+    
+            <div class="box__footer">
+                <h2>Organización</h2>
+                <p>Mirian SantaMaria</p> 
+                <p>Leidy SantaMaria</p>
+                <p>Dayana Carriòn Espinoza</p>   
+                <p>Angellit Albornoz Suarez</p>         
+            </div>
+    
+            <div class="redes">
+                <div class="sociales">
+                    <ul>
+                        <li><a href="https://es-la.facebook.com/LibrosInfinite/" target="_blank" class="media"><i class='bx bxl-facebook' ></i></a></li>
+                        <li><a href="https://twitter.com/librosylit?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="media"><i class='bx bxl-twitter'></i> </a></li>
+                        <li><a href="https://www.instagram.com/dimeunlibro/?hl=es"  target="_blank" class="media"><i class='bx bxl-instagram'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+            <div class="box__copyright">
+    <hr>
+                
+                <p>Todos los derechos reservados © 2023 <b>Paper Tower</b></p>
+            </div>
+    
+        </div>
+    
+    
+        
+    </footer>
+</section>
+
+
+
+
+
+
+    <script src="../libros/main.js"></script>
+    <script src="../libros/title.js"></script>
+
+</body>
+</html>
